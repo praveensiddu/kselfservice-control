@@ -7,12 +7,12 @@
   purpose: "dedicated for app1"
   datacenter: australia
   applications:
-  - app2
-- clustername: '301'
+  - app1
+- clustername: '201'
   purpose: "dedicated for app1"
   datacenter: india
   applications:
-  - app2
+  - app1
 - clustername: '02'
   purpose: "dedicated for app2"
   datacenter: us
