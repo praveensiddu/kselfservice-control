@@ -1,0 +1,6 @@
+# Set enforce_egress_firewall to no if egress firewall should not be enforced
+enforce_egress_firewall: "yes"
+# Set enforce_egress_ip to no if egress ip is not enforced by default
+# egress ip does source natting and makes all egress traffic from pods in a namespace
+# to use a unique ip and not the kubernetes node ip.
+enforce_egress_ip: "yes"
