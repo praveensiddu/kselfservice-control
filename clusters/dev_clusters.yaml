@@ -72,4 +72,9 @@
   - app7
   - app8
   - app9
-  l4_ingress_ip_ranges: []
+  l4_ingress_ip_ranges:
+  - start_ip: 10.1.103.51
+    end_ip: 10.1.103.100
+  egress_ip_ranges:
+  - start_ip: 10.1.103.101
+    end_ip: 10.1.103.150
