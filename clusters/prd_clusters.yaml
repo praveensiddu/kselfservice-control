@@ -6,6 +6,9 @@
   l4_ingress_ip_ranges:
   - start_ip: 10.3.1.51
     end_ip: 10.3.1.100
+  egress_ip_ranges:
+  - start_ip: 10.3.1.101
+    end_ip: 10.3.1.150
 - clustername: '101'
   purpose: dedicated for app1
   datacenter: australia
@@ -24,6 +27,9 @@
   l4_ingress_ip_ranges:
   - start_ip: 10.3.2.51
     end_ip: 10.3.2.100
+  egress_ip_ranges:
+  - start_ip: 10.3.2.101
+    end_ip: 10.3.2.150
 - clustername: '102'
   purpose: dedicated for app2
   datacenter: australia
@@ -38,6 +44,7 @@
   purpose: multitenant cluster
   datacenter: us
   applications:
+  - app10
   - app3
   - app4
   - app5
@@ -45,7 +52,10 @@
   - app7
   - app8
   - app9
-  - app10
+  l4_ingress_ip_ranges: []
+  egress_ip_ranges:
+  - start_ip: 10.3.101.101
+    end_ip: 10.3.101.150
 - clustername: '103'
   purpose: multitenant cluster
   datacenter: australia
