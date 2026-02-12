@@ -1,0 +1,24 @@
+grp_app1_viewer:
+  app1:
+  - viewer
+grp_app1_manager:
+  app1:
+  - manager
+grp_app2_viewer:
+  app2:
+  - viewer
+grp_app2_manager:
+  app2:
+  - manager
+grp_app3_viewer:
+  app3:
+  - viewer
+grp_app3_manager:
+  app3:
+  - manager
+grp_app4_viewer:
+  app4:
+  - viewer
+grp_app4_manager:
+  app4:
+  - manager

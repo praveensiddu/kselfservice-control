@@ -1,0 +1,5 @@
+usr_role_admin_only:
+- role_mgmt_admin
+usr_platform_admin:
+- platform_admin
+- role_mgmt_admin

@@ -1,0 +1,30 @@
+usr_role_admin_only:
+  name: Role Admin Only
+  description: Role management admin (demo)
+usr_platform_admin:
+  name: Platform Admin
+  description: Platform admin with full access (demo)
+usr_app1_viewer:
+  name: App1 Viewer
+  description: Viewer for app1 (demo)
+usr_app1_manager:
+  name: App1 Manager
+  description: Manager for app1 (demo)
+usr_app2_viewer:
+  name: App2 Viewer
+  description: Viewer for app2 (demo)
+usr_app2_manager:
+  name: App2 Manager
+  description: Manager for app2 (demo)
+usr_app3_viewer:
+  name: App3 Viewer
+  description: Viewer for app3 (demo)
+usr_app3_manager:
+  name: App3 Manager
+  description: Manager for app3 (demo)
+usr_app4_viewer:
+  name: App4 Viewer
+  description: Viewer for app4 (demo)
+usr_app4_manager:
+  name: App4 Manager
+  description: Manager for app4 (demo)

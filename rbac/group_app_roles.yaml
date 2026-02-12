@@ -1,0 +1,6 @@
+grp1:
+  app4:
+  - viewer
+testgroup:
+  app1:
+  - viewer

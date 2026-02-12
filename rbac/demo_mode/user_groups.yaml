@@ -1,0 +1,20 @@
+usr_role_admin_only:
+- grp_view_all
+usr_platform_admin:
+- grp_view_all
+usr_app1_viewer:
+- grp_app1_viewer
+usr_app1_manager:
+- grp_app1_manager
+usr_app2_viewer:
+- grp_app2_viewer
+usr_app2_manager:
+- grp_app2_manager
+usr_app3_viewer:
+- grp_app3_viewer
+usr_app3_manager:
+- grp_app3_manager
+usr_app4_viewer:
+- grp_app4_viewer
+usr_app4_manager:
+- grp_app4_manager
