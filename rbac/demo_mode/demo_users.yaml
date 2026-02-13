@@ -28,3 +28,9 @@ usr_app4_viewer:
 usr_app4_manager:
   name: App4 Manager
   description: Manager for app4 (demo)
+usr_app1_app4_mgr:
+  name: App1 and App4 Manager
+  description: Manager for app1 & app4 (demo)
+usr_app1_mgr_app4_view:
+  name: App1 Manager and App4 Viewer
+  description: App1 Manager and App4 Viewer (demo)
