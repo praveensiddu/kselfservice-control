@@ -18,3 +18,9 @@ usr_app4_viewer:
 - grp_app4_viewer
 usr_app4_manager:
 - grp_app4_manager
+usr_app1_app4_mgr:
+- grp_app1_manager
+- grp_app4_manager
+usr_app1_mgr_app4_view:
+- grp_app1_manager
+- grp_app4_viewer
