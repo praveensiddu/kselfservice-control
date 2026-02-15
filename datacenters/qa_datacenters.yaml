@@ -1,0 +1,8 @@
+- location: 'virginia'
+  description: virginia USA datacenter
+- location: 'ohio'
+  description: ohio USA datacenter
+- location: 'sydney'
+  description: sydney australia datacenter
+- location: 'bengaluru'
+  description: bengaluru India datacenter
