@@ -3,7 +3,9 @@
   datacenter: us
   applications:
   - app1
-  l4_ingress_ip_ranges: []
+  l4_ingress_ip_ranges:
+  - start_ip: 10.3.1.51
+    end_ip: 10.3.1.100
   egress_ip_ranges:
   - start_ip: 10.3.1.101
     end_ip: 10.3.1.150
@@ -12,7 +14,9 @@
   datacenter: australia
   applications:
   - app1
-  l4_ingress_ip_ranges: []
+  l4_ingress_ip_ranges:
+  - start_ip: 10.3.101.51
+    end_ip: 10.3.101.100
   egress_ip_ranges:
   - start_ip: 10.3.101.101
     end_ip: 10.3.101.150
