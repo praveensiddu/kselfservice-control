@@ -78,28 +78,3 @@
   egress_ip_ranges:
   - start_ip: 10.1.103.101
     end_ip: 10.1.103.150
-- clustername: test01
-  purpose: test
-  datacenter: us
-  applications:
-  - app1
-  l4_ingress_ip_ranges: []
-  egress_ip_ranges:
-  - start_ip: 10.1.1.1
-    end_ip: 10.1.1.51
-- clustername: test2
-  purpose: app1
-  datacenter: us
-  applications:
-  - app1
-  l4_ingress_ip_ranges: []
-  egress_ip_ranges:
-  - start_ip: 10.1.1.1
-    end_ip: 10.1.1.51
-- clustername: sdfsd
-  purpose: sdfsd
-  datacenter: ohio
-  applications:
-  - app1
-  l4_ingress_ip_ranges: []
-  egress_ip_ranges: []
