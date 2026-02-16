@@ -1,6 +1,6 @@
 - clustername: '01'
   purpose: dedicated for app1
-  datacenter: us
+  datacenter: virginia
   applications:
   - app1
   l4_ingress_ip_ranges:
@@ -11,7 +11,7 @@
     end_ip: 10.3.1.150
 - clustername: '101'
   purpose: dedicated for app1
-  datacenter: australia
+  datacenter: sydney
   applications:
   - app1
   l4_ingress_ip_ranges:
@@ -22,12 +22,14 @@
     end_ip: 10.3.101.150
 - clustername: '201'
   purpose: dedicated for app1
-  datacenter: india
+  datacenter: bengaluru
   applications:
   - app1
+  l4_ingress_ip_ranges: []
+  egress_ip_ranges: []
 - clustername: '02'
   purpose: dedicated for app2
-  datacenter: us
+  datacenter: virginia
   applications:
   - app2
   l4_ingress_ip_ranges:
@@ -38,17 +40,21 @@
     end_ip: 10.3.2.150
 - clustername: '102'
   purpose: dedicated for app2
-  datacenter: australia
+  datacenter: sydney
   applications:
   - app2
+  l4_ingress_ip_ranges: []
+  egress_ip_ranges: []
 - clustername: '202'
   purpose: dedicated for app2
-  datacenter: india
+  datacenter: bengaluru
   applications:
   - app2
+  l4_ingress_ip_ranges: []
+  egress_ip_ranges: []
 - clustername: '03'
   purpose: multitenant cluster
-  datacenter: us
+  datacenter: virginia
   applications:
   - app10
   - app3
@@ -64,7 +70,7 @@
     end_ip: 10.3.3.150
 - clustername: '103'
   purpose: multitenant cluster
-  datacenter: australia
+  datacenter: sydney
   applications:
   - app3
   - app4
@@ -76,7 +82,7 @@
   - app10
 - clustername: '203'
   purpose: multitenant cluster
-  datacenter: india
+  datacenter: bengaluru
   applications:
   - app3
   - app4
